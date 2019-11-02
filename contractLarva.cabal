@@ -55,15 +55,7 @@ library
   exposed-modules:     Solidity, Parseable, Main, DEA, Solidity.Solidity, Solidity.Parsing, Solidity.Instrumentation, DEA.Parsing, DEA.Instrumentation, DEA.DEA
 
   -- Modules included in this library but not exported.
-  other-modules:  DEA
-                  DEA.DEA
-                  DEA.Instrumentation
-                  DEA.Parsing
-                  Parseable
-                  Solidity
-                  Solidity.Instrumentation
-                  Solidity.Parsing
-                  Solidity.Solidity
+  -- other-modules:  
 
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    FlexibleContexts
