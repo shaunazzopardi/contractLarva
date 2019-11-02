@@ -55,7 +55,15 @@ library
   exposed-modules:     Solidity, Parseable, Main, DEA, Solidity.Solidity, Solidity.Parsing, Solidity.Instrumentation, DEA.Parsing, DEA.Instrumentation, DEA.DEA
 
   -- Modules included in this library but not exported.
-  -- other-modules:
+  other-modules:  DEA
+                  DEA.DEA
+                  DEA.Instrumentation
+                  DEA.Parsing
+                  Parseable
+                  Solidity
+                  Solidity.Instrumentation
+                  Solidity.Parsing
+                  Solidity.Solidity
 
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    FlexibleContexts
@@ -75,7 +83,15 @@ executable contractLarva
   main-is:             Main.hs
 
   -- Modules included in this executable, other than Main.
-  -- other-modules:
+  other-modules:  DEA
+                  DEA.DEA
+                  DEA.Instrumentation
+                  DEA.Parsing
+                  Parseable
+                  Solidity
+                  Solidity.Instrumentation
+                  Solidity.Parsing
+                  Solidity.Solidity
 
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    FlexibleContexts
