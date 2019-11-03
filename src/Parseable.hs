@@ -32,3 +32,6 @@ _display = (' ':) . display
 
 lineDisplay :: Parseable a => a -> String
 lineDisplay = filter (not . isSpace) . display
+
+(<||>) :: Parser a -> Parser a -> Parser a
+p <||> q =  try p <|> q
