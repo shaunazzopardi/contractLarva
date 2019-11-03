@@ -12,7 +12,7 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
-module Parseable (Parseable (..), _display, lineDisplay) where
+module Parseable where
 
 import Data.Char
 import Text.Parsec
